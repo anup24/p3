@@ -16,7 +16,7 @@ class BMIController extends Controller
     {
         $this->validate($request, [
             'height' => 'required|numeric|min:1',
-            'weight' => 'required|numeric|min:0',
+            'weight' => 'required|numeric|min:1',
             'units' => 'required',
         ]);
 
