@@ -12,7 +12,7 @@
     @endif
 
     @if($chart)
-        <img src='/images/bmi-chart.jpg' id='chart' alt='BMI Charts' class="img-rounded">
+        <img src='/images/bmi-chart.jpg' id='chart' alt='BMI Charts' />
     @endif
 
 @endsection

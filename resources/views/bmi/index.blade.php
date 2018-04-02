@@ -23,7 +23,7 @@
             </label>
 
             <label for='units'>
-                <input name='units' id='units' type='radio' value='imperial'> * Imperial (Weight in lbs & height in m)
+                <input name='units' id='units' type='radio' value='imperial'> * Imperial (Weight in lbs & height in inches)
             </label>
 
             <label for='chart'>

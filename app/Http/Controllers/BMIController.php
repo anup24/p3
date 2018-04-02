@@ -23,11 +23,13 @@ class BMIController extends Controller
         $height = $request->input('height', null);
         $weight = $request->input('weight', null);
         $units = $request->input('units', null);
-        $chart = $request->input('chart', null);
+        $chart = $request->input('chart', false);
         $bmiValue = 0;
 
         if ($units == 'metric') {
-            $bmiValue = $weight / ($height * $height);
+            $heightInMeters = $height / 100;
+            $bmiValue = $weight / ($heightInMeters * $heightInMeters);
+
         } else if ($units == 'imperial') { //this check is optional, it can just be 'else'
             $bmiValue = $weight / ($height * $height) * 703;
         }
