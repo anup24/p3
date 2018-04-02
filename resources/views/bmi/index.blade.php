@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <h1>Please enter your height, weight and specify units for calculation</h1>
+    <h1>Enter your height, weight and specify units</h1>
     <div class='details'>* Required fields</div>
     <form method='GET' action='/show'>
 

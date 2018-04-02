@@ -14,9 +14,10 @@
 
 <header>
     <a href='/'><img src='/images/bmicalc.jpg' id='logo' alt='BMI Calculator Logo'></a>
+    @include('modules.nav')
 </header>
 
-<section>
+<section id='main'>
     @yield('content')
 </section>
 
