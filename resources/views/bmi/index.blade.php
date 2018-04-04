@@ -18,12 +18,12 @@
             </label>
             @include('modules.error-field', ['field' => 'height'])
 
-            <label for='units'>
-                <input name='units' id='units' type='radio' value='metric'> * Metric (Weight in kg & height in cms)
+            <label for='metric'>
+                <input name='units' id='metric' type='radio' value='metric' selected> * Metric (Weight in kg & height in cms)
             </label>
 
-            <label for='units'>
-                <input name='units' id='units' type='radio' value='imperial'> * Imperial (Weight in lbs & height in inches)
+            <label for='imperial'>
+                <input name='units' id='imperial' type='radio' value='imperial'> * Imperial (Weight in lbs & height in inches)
             </label>
 
             <label for='chart'>

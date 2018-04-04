@@ -2,8 +2,12 @@
 
 return [
 
+    'supportEmail' => 'anup.shetye@gmail.com',
+
     'nav' => [
         '/' => 'Home',
+        '/about' => 'About',
+        '/contact' => 'Contact',
        # '/bmi/show' => 'Show BMI',
     ],
 
