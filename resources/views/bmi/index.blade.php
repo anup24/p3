@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-
+    Welcome to Easy BMI Calculator
 @endsection
 
 @section('content')
@@ -19,7 +19,7 @@
             @include('modules.error-field', ['field' => 'height'])
 
             <label for='metric'>
-                <input name='units' id='metric' type='radio' value='metric' selected> * Metric (Weight in kg & height in cms)
+                <input name='units' id='metric' type='radio' value='metric'> * Metric (Weight in kg & height in cms)
             </label>
 
             <label for='imperial'>

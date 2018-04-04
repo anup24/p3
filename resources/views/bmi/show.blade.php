@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-
+    Your BMI Calculation
 @endsection
 
 @section('content')
