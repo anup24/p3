@@ -53,7 +53,7 @@ class BMIController extends Controller
         }
 
         return view('bmi.show')->with([
-            'bmiValue' => $bmiValue,
+            'bmiValue' => number_format($bmiValue, 2, '.', ''),
             'result' => $result,
             'chart' => $chart
         ]);
