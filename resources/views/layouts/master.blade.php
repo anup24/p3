@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 <head>
     <title>@yield('title', 'Easy BMI Calculator')</title>
     <meta charset='utf-8'>
